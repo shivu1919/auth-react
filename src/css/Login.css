@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#inp{
+    height: 32px;
+    width: 220px;
+}
+
+#login_btn{
+    height: 40px;
+    width: fit-content;
+    padding: 2px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
